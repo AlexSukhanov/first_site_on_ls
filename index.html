@@ -7,26 +7,47 @@
 <body>
 	<div class="wrapper">
 		<header class="header">
-			<address class="phone">8 (800) 00-392-10
-			</address>
-			<div class="schedule"> график работы
+			<div class="phone">
+			<p class="phone">8 (800) 00-392-10</p>
+			</div>
+			<div class="schedule"> 
+			<p class="schedule__text">график работы</p>
 			</div>
 			<div class="logo">
 			<img src="Images/logo/logo-fig.png" alt="наш крутой логотип">
 			</div>
 
-
 		</header>
 		<aside class="sidebar">
-			<nav class="nav">
-				<ul class="nav-button">
-					<li><img src="Images/icons/main_icon.png"> <span class="nav-button__text">главная</span></li>
-					<li><img src="Images/icons/wallet_icon.png"> <span class="nav-button__text">тарифы</span></li>
-					<li><img src="Images/icons/feed_icon.png"> <span class="nav-button__text">отзывы</span></li>
-				</ul>
-
-			</nav>
-		</aside>
+        <nav class="menu">
+          <ul class="nav-menu">
+            <li class="nav-menu__item">
+              <a href="" class="nav-menu__link">
+                <div class="nav-menu__icon">
+                  <img src="" alt="">
+                </div>
+                <div class="nav-menu__text">Главная</div>
+              </a>
+            </li>
+            <li class="nav-menu__item">
+              <a href="" class="nav-menu__link">
+                <div class="nav-menu__icon">
+                  <img src="" alt="">
+                </div>
+                <div class="nav-menu__text">Тарифы</div>
+              </a>
+            </li>
+            <li class="nav-menu__item">
+              <a href="" class="nav-menu__link">
+                <div class="nav-menu__icon">
+                  <img src="" alt="">
+                </div>
+                <div class="nav-menu__text">Отзывы</div>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </aside>
 		<main class="main">
 			<div class="feedback">
 				<div class="feed-list">
@@ -34,7 +55,7 @@
 
 						<img class="foto-client" src="Images/foto/foto_client3.jpg"> 
 							<div class="feeder__name">
-								олег павлов
+								Олег Павлов
 							</div>
 							<div class="feeder__time">
 								12.10.2016
@@ -48,7 +69,7 @@
 
 						<img class="foto-client" src="Images/foto/foto_client1.jpg"> 
 							<div class="feeder__name">
-								'эрнест изиль'
+								'Эрнест Изиль'
 							</div>
 							<div class="feeder__time">
 								01.02.2016
@@ -61,7 +82,7 @@
 
 						<img class="foto-client" src="Images/logo/logo-fig.png"> 
 							<div class="feeder__name">
-								елена сургай
+								Елена Сургай
 							</div>
 							<div class="feeder__time">
 								22.12.201
@@ -75,7 +96,7 @@
 
 						<img class="foto-client" src="Images/foto/foto_client2.jpg"> 
 							<div class="feeder__name">
-								наталья осадчая
+								Наталья Осадчая
 							</div>
 							<div class="feeder__time">
 								14.08.2015
@@ -89,7 +110,39 @@
 				</div>
 			</div>
 		</main>
+	<div class="feed-form">
+		<div class="feed-form__up-text">
+		Оставить отзыв
+		</div>
+		<div class="feed-form__user-name">
+			Ваше имя
+			<form >
+				<input type="text" placeholder="Введите имя" class="input-name">
+			</form>
+		</div>	
+		<div class="feed-form__vk">
+			Ссылка на профиль VK
+			<form>
+				<input type="text" placeholder="vk.com/example" class="input-vk">
+			</form>
+		</div>
+		<div class="feed-form__feed-text">
+			Текст отзыва
+			<form>
+				<input type="text" placeholder="Мне понравилось..." class="input-feed-text">
+			</form>
+			
+		</div>
+		<div class="radio-button">
+			
+			<form>
+				<input type="radio" class="radio-button__1">
+				<input type="radio" class="radio-button__1">
+			</form>
+		</div>
 
+
+	</div>
 	</div>
 </body>
 </html>
