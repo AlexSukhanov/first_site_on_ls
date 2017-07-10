@@ -1,10 +1,28 @@
-.header{
-	height: 75px;
-	width: 100%;
-	background-color: #27273e;
-
+@font-face {
+	font-family: 'Gotham';
+	src: url('../fonts/GothamPro-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
 }
-.contact__schedule{
-	color: #b12167;
+@font-face {
+	font-family: 'Gotham';
+	src: url('../fonts/GothamPro-Light.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Gotham';
+	src: url('../fonts/GothamPro-LightItalic.woff') format('woff');
+	font-weight: 300;
+	font-style: italic;
+}
+body {
+	font-family: 'Gotham';
+	font-weight: 300;
+	margin: 0 0;
 	
 }
+* {
+	box-sizing: border-box;
+}
+
