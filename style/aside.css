@@ -1,0 +1,25 @@
+.nav-menu__icon-main{
+	background: url(../images/icons/main_pink_icon.png) 50% 50% no-repeat; 
+	width: 18px;
+	height: 15px;
+}
+
+.nav-menu__icon-wallet{
+background: url(../images/icons/feed_pink_icon.png) 50% 50% no-repeat;
+width: 18px;
+height: 15px;
+}
+
+.nav-menu__icon-comments{
+	background: url(../images/icons/wallet_pink_icon.png) 50% 50% no-repeat;
+	width: 18px;
+	height: 15px;
+}
+
+.nav-menu__text{
+	text-transform: uppercase;
+	color: #ec1e79;
+}
+.nav-menu__link{
+	text-decoration: none;
+}
